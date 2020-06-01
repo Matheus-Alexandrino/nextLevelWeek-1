@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: var(--title-color);
     font-family: 'Ubuntu', sans-serif;
 
@@ -36,7 +36,7 @@ bordas, cor, fundo, maneira que é vista pelo html (display)
     height: 100vh; /* View port height (altura)*/
 
     background: url('../icones/home-background.svg') no-repeat;
-    background-position: 35vw bottom; /*Viewport widht (largura)*/
+    background-position:  35vw 150px; /*Viewport widht (largura)*/
 
 }
 #page-home .content { 
@@ -154,7 +154,8 @@ bordas, cor, fundo, maneira que é vista pelo html (display)
     }
     #page-home header a {
         position: absolute;
-        bottom: 48px;
+        bottom: 42px;
+        top: 95%;
 
         left: 50%;
         transform: translateX(-50%);  /*ALINNHAMENTO*/
